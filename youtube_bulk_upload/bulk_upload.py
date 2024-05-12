@@ -278,7 +278,7 @@ class YouTubeBulkUpload:
                     "tags": self.youtube_keywords,
                     "categoryId": self.youtube_category_id,
                 },
-                "status": {"privacyStatus": "public"},
+                "status": {"privacyStatus": "private"},
             }
 
             # Use MediaFileUpload to handle the video file
